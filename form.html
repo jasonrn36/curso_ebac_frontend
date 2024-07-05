@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Aqui podemos mudar o idioma da página-->
+<head>
+    <meta charset="UTF-8"> <!-- o UTF-8 é para os carecteres em português-->
+    <!-- abaixo o meta e o content é para ser exibido em todos os tipos de dispositivos conforme sua escala-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title><!-- Área de título-->
+
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+        <label for="name">Nome de usuário:</label>
+        <!-- O required foi adicionado para tornar obrigatório o preenchimento antes de enviar-->
+        <input type="text" id="name" placeholder="Nome de usuário" required/>
+        <br />
+        <label for="E-mail">E-mail:</label>
+        <input type="e-mail" id="E-mail" placeholder="Seu E-mail" required/>
+        <br />
+        <label for="pass">Senha:</label>
+        <input type="password" id="pass" placeholder="Informe a sua senha" required/>
+        <br />
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>
