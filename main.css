@@ -1,0 +1,170 @@
+/* This reset of settings make to everyting in page stay 
+    noboby spacementing, not line, not border. */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*############################################################*/
+/* Page body change settings */
+body > header {
+    background-color: #2f3640;
+    padding: 8px 0;
+    color: aliceblue;
+    
+}
+
+
+/*############################################################*/
+/* Settings of header */
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header li a {
+    color: #efefef;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/*############################################################*/
+/* Settings of Sections */
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*############################################################*/
+/* Settings of sections by names */
+
+/* Area of fame settings*/
+#fame {
+    background-color: #ffdede;
+}
+
+#fame .articles article a {
+    background-color: #ff4343;
+}
+
+
+/* Area of sports settings*/
+#sports {
+    background-color: rgba(0, 255, 0, 0.082);
+} 
+
+#sports .articles article a {
+    background-color: #00af3a;
+}
+
+/* Area of economy settings*/
+#economy {
+    background-color: #fffdc9;
+}
+#economy .articles article a {
+    background-color: #Ff9f1a;
+}
+
+/* Area of social settings*/
+#social {
+    background-color: #dcccff;
+}
+
+#social .articles article a {
+    background-color: #6c28ff;
+}
+
+/* Area of tecnologia settings*/
+#tecnologia {
+    background-color: #c3e2ff;
+}
+
+#tecnologia .articles article a {
+    background-color: #108fff;
+}
+
+/*############################################################*/
+/* Settings of containers */
+.container {
+    width: 1366px;
+    margin: 0,auto;
+    justify-content: space-between;   
+}
+
+.container h1 {
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 3px rgb(11, 220, 227);
+    
+}
+
+
+
+/*############################################################*/
+/* Settings of display by .articles and article*/
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img{
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    padding: 10px 10px;
+}
+
+/* Settings of font, color, display and text decoration*/
+.articles article a {
+    background-color: #1a1046;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Settings of visual effects to links*/
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+
+/* Settings of formating font and paragraph and links*/
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*############################################################*/
